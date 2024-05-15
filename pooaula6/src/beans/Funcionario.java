@@ -53,7 +53,7 @@ public abstract class Funcionario extends pessoa implements Empregado{
 
     @Override
     public String toString() {
-        return "Funcionario{" + "matricula=" + matricula + ", departamento=" + departamento + "nome=" + nome + ", email=" + email + ", RG=" + RG + ", salarioBruto=" + salarioBruto() + ", salarioLiquido = " + salarioLiquido() + '}';
+        return "Funcionario{" + "matricula=" + matricula + ", departamento=" + departamento + "nome=" + nome + ", email=" + email + ", RG=" + RG + ", salarioBruto=" + salarioBruto() + ", salarioLiquido = " + salarioLiquido() + ", IRRF=" + IRRF() + ", INSS=" + INSS() + '}';
     }
 
  
